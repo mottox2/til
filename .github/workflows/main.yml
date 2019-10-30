@@ -19,6 +19,5 @@ jobs:
       run: |
         echo Add other actions to build,
         echo test, and deploy your project.
-    - run: cd github-actions
-    - run: npm install
-    - run: node index.js
+    - run: cd github-actions && npm install
+    - run: node github-actions/index.js
