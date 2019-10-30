@@ -2,5 +2,8 @@
   "name": "github-actions",
   "version": "1.0.0",
   "main": "index.js",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "cowsay": "^1.4.0"
+  }
 }
